@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/design-system.css">
+    <title>GON Design System</title>
+</head>
+<body>
+    <main class="ds">
+        <header class="ds__header">
+            <h1 class="text-heading-lg">Design System</h1>
+            <p class="text-body">The visual vocabulary for this project</p>
+        </header>
+        <section class="ds__section">
+            <h2 class="ds__section-title">Colors</h2>
+            <div class="swatch-grid">
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-primary-500);"></div>
+                    <p class="swatch__name">primary-500</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-primary-400);"></div>
+                    <p class="swatch__name">primary-400</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-100); border: 1px solid var(--color-neutral-300);"></div>
+                    <p class="swatch__name">neutral-100</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-200);"></div>
+                    <p class="swatch__name">neutral-200</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-300);"></div>
+                    <p class="swatch__name">neutral-300</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-500);"></div>
+                    <p class="swatch__name">neutral-500</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-700);"></div>
+                    <p class="swatch__name">neutral-700</p>
+                </div>
+                <div class="swatch">
+                    <div class="swatch__color" style="background: var(--color-neutral-900);"></div>
+                    <p class="swatch__name">neutral-900</p>
+                </div>
+            </div>
+        </section>
+        <section class="ds__section">
+            <h2 class="ds__section-title">Typography</h2>
+            <div class="type-list">
+                <div class="type-sample">
+                    <p class="type-sample__meta">text-heading-lg — 2.5rem / bold</p>
+                    <p class="text-heading-lg">The quick brown fox</p>
+                </div>
+                <div class="type-sample">
+                    <p class="type-sample__meta">text-heading-md — 1.5rem / bold</p>
+                    <p class="text-heading-md">The quick brown fox</p>
+                </div>
+                <div class="type-sample">
+                    <p class="type-sample__meta">text-body — 1rem / regular</p>
+                    <p class="text-body">The quick brown fox jumps over the lazy dog.</p>
+                </div>
+                <div class="type-sample">
+                    <p class="type-sample__meta">text-caption — 0.875rem / medium / uppercase</p>
+                    <p class="text-caption">The quick brown fox</p>
+                </div>
+            </div>
+        </section>
+        <section class="ds__section">
+            <h2 class="ds__section-title">Spacing</h2>
+            <div class="space-list">
+                <div class="space-sample">
+                    <p class="space-sample__name">space-100</p>
+                    <div class="space-sample__bar" style="width: var(--space-100);"></div>
+                    <p class="space-sample__value">4px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-200</p>
+                    <div class="space-sample__bar" style="width: var(--space-200);"></div>
+                    <p class="space-sample__value">8px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-300</p>
+                    <div class="space-sample__bar" style="width: var(--space-300);"></div>
+                    <p class="space-sample__value">12px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-400</p>
+                    <div class="space-sample__bar" style="width: var(--space-400);"></div>
+                    <p class="space-sample__value">16px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-500</p>
+                    <div class="space-sample__bar" style="width: var(--space-500);"></div>
+                    <p class="space-sample__value">24px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-600</p>
+                    <div class="space-sample__bar" style="width: var(--space-600);"></div>
+                    <p class="space-sample__value">32px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-700</p>
+                    <div class="space-sample__bar" style="width: var(--space-700);"></div>
+                    <p class="space-sample__value">48px</p>
+                </div>
+                <div class="space-sample">
+                    <p class="space-sample__name">space-800</p>
+                    <div class="space-sample__bar" style="width: var(--space-800);"></div>
+                    <p class="space-sample__value">64px</p>
+                </div>
+            </div>
+        </section>
+        <section class="ds__section">
+            <h2 class="ds__section-title">Radii & Shadows</h2>
+            <div class="chip-grid">
+                <div class="chip" style="border-radius: var(--radius-sm);">radius-sm</div>
+                <div class="chip" style="border-radius: var(--radius-md);">radius-md</div>
+                <div class="chip" style="border-radius: var(--radius-lg);">radius-lg</div>
+                <div class="chip" style="border-radius: var(--radius-full);">radius-full</div>
+            </div>
+            <div class="chip-grid" style="margin-top: var(--space-500);">
+                <div class="chip" style="box-shadow: var(--shadow-sm);">shadow-sm</div>
+                <div class="chip" style="box-shadow: var(--shadow-md);">shadow-md</div>
+                <div class="chip" style="box-shadow: var(--shadow-lg);">shadow-lg</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: var(--space-500);
+}
+
+.profile-card {
+    width: 100%;
+    max-width: 22rem;
+    padding: var(--space-600);
+    background-color: var(--color-neutral-100);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.profile-card__avatar {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto var(--space-400) auto;
+    border-radius: var(--radius-full);
+    object-fit: cover;
+}
+
+.profile-card__bio {
+   margin-top: var(--space-300);
+   margin-bottom: var(--space-500);
+   color: var(--color-neutral-500);
+}
+
+.button {
+    cursor: pointer;
+    padding: var(--space-300) var(--space-500);
+    border: none;
+    border-radius: var(--radius-md);
+    background-color: var(--color-primary-500);
+    color: var(--color-neutral-100);
+    font-weight: var(--font-weight-medium);
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover,
+.button:focus-visible {
+    background-color: var(--color-primary-400);
+}
