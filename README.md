@@ -18,6 +18,9 @@ Open the two HTML files directly in your browser:
 
 No server, no dependencies — just double-click the files or drag them into a browser tab.
 
+<img width="373" height="536" alt="image" src="https://github.com/user-attachments/assets/3967a910-bafe-43aa-b524-c0d2dff63505" />
+
+
 ## Project structure
 
 ```
